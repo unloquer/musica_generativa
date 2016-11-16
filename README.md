@@ -9,23 +9,23 @@ Vamos a considerar algunos elementos de composición
 ### Groove / Agitación / Ritmo
 #### => Genere un sonido rítmico
 Escriba la forma más simple para que se genere un sonido cada determinado tiempo.   
-+ Solución que genera un tick cada cierto tiempo https://raw.githubusercontent.com/son0p/algo0ritmos/master/practicas/100while.ck
++ Solución que genera un tick cada cierto tiempo: https://raw.githubusercontent.com/son0p/algo0ritmos/master/practicas/100while.ck
   
 
 #### => Aplique una curva de probabilidad
 Escriba una curva de probabilidad que describa los momentos en que un instrumento debe sonar o permanecer en silencio.
-+ Solución con tres instrumentos (bombo, redoblante, charles) https://github.com/son0p/algo0ritmos/blob/master/generatives/gen_agitation_001.ck
++ Solución con tres instrumentos (bombo, redoblante, charles): https://github.com/son0p/algo0ritmos/blob/master/generatives/gen_agitation_001.ck
 
 
 ### Alturas / Melodías
 #### => Genere notas aleatorias
 Escriba una función que permita generar notas aleatorias
-+ Solución que genera notas aleatorias sobre una base rítmica https://github.com/son0p/algo0ritmos/blob/master/practicas/alturas_002.ck
++ Solución que genera notas aleatorias sobre una base rítmica: https://github.com/son0p/algo0ritmos/blob/master/practicas/alturas_002.ck
   
 ### Densidades / Armonías
 #### => Genere acorde
 Escriba una función que genere un acorde
-+ Solución que genera un acorde apilando terceras mayores o menores https://github.com/son0p/algo0ritmos/blob/master/generatives/gen_densidad_001.ck
++ Solución que genera un acorde apilando terceras mayores o menores: https://github.com/son0p/algo0ritmos/blob/master/generatives/gen_densidad_001.ck
     
 #### => Generador de progresiones armónicas
 Escriba una función que seleccione una progresión armónica dentro de un grupo de opciones.
@@ -33,6 +33,7 @@ Escriba una función que seleccione una progresión armónica dentro de un grupo
 ### Timbre / Textura / Color / Tesitura
 #### => Variación de un filtro
 Escriba una función que altere el centro de frecuencia de un filtro al final de cada compas.
++ Solución que filtra un ruido subiendo el centro de frecuencia al final del ciclo: https://github.com/son0p/algo0ritmos/blob/master/generatives/gen_texture_001.ck 
 
 ### Intensidad / Volumetría / Dinámica
 #### => Variación de la dinámica
