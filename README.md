@@ -38,14 +38,17 @@ Escriba una función que altere el centro de frecuencia de un filtro al final de
 ### Intensidad / Volumetría / Dinámica
 #### => Variación de la dinámica
 Escriba una función que defina los acentos en un ritmo.
++ Solición que altera la dinámica de un hi hat según una curva fija: https://github.com/son0p/algo0ritmos/blob/master/generatives/gen_dynamics_001.ck
 
 ### Espacialidad
 #### => Generador de apertura
 Escriba una un función que posicione los sonidos mas al centro o más hacia los lados según unas condiciones determinadas.
++ Solición que altera el paneo de un hi hat según una curva fija: https://github.com/son0p/algo0ritmos/blob/master/generatives/gen_spaciality_001.ck
 
 ### Transientes
 #### => Generador de transientes
 Escriba una función que permita manipular el transiente de un sonido según unas condiciones.
++ Solución que va aumentando la presencia de un componente transiente en un bajo: https://github.com/son0p/algo0ritmos/blob/master/generatives/gen_transients_001.ck
 
 
 
