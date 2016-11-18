@@ -1,5 +1,6 @@
 
 # Música generativa para principiantes 
+_"Así pues, el mundo oculto de que nos habla el físico contemporáneo es de esencia matemática" Gastón Bachelard en Estudios_
 ## ¿De qué se trata esto?
 Imaginar los componentes musicales como organismos nos permite crear unidades generadoras con una serie de condiciones que podrían crear música.
 
@@ -7,9 +8,9 @@ Para este taller usaremos el lenguaje de programación [ChucK](http://chuck.cs.p
 
 + El compositor que desea liberarse de la materialización estricta e inmovil de una creación.
 + Que larga dictadura la que a padecido la música bajo la pluma del compositor, 
-+ Indicios de autonomía
++ Indicios de autonomía de la máquina
 + Algunos espíritus que solo soportan la aleatoriedad unos minutos
-+ La idea de una música producida por un grupo de algoritmos
++ La vieja idea de una música producida por un grupo de algoritmos matemáticos
 + Cuando la formula empieza a ser más valorada que el resultado
 + La curiosidad de modelar matemáticamente el tipo de música electrónica que pone un DJ en la pista de baile
 
@@ -31,6 +32,9 @@ Escriba una curva de probabilidad que describa los momentos en que un instrument
 #### => Genere notas aleatorias
 Escriba una función que permita generar notas aleatorias
 + Solución que genera notas aleatorias sobre una base rítmica: https://github.com/son0p/algo0ritmos/blob/master/practicas/alturas_002.ck
++ Solución basada en la explicación de williamsharkey: https://github.com/son0p/algo0ritmos/blob/master/generatives/gen_transients_001.ck
+  + Despues de la nota raíz hay 100% de probabilidad que suene una octava arriba
+  + Después de la octava arriba hay 50% de probabilidad que suene la nota raíz y 50% que suene la octava.
   
 ### Densidades / Armonías
 #### => Genere acorde
@@ -75,11 +79,12 @@ Escriba una función que permita manipular el transiente de un sonido según una
 +  Concurso para determinar si un algoritmo que selecciona música como un DJ pasa el touring test ( via @danielgomezmarin ) http://bregman.dartmouth.edu/turingtests/algorhythms 
 
 ### Markov
+
 + A visual explanation by Victor Powell http://setosa.io/blog/2014/07/26/markov-chains/index.html
 
 +  En este link explican como usar cadenas de markov para hacer strings( o textos) más confusos https://bwall.github.io/markov-chains-keyed-obfuscation/
 
-#### Explicación de williamsharkey 
+##### Explicación de williamsharkey 
 
 After a kick, there is a 100% chance of a snare. 
 After a snare there is a 50% chance of a snare, and a 50% chance of a kick. 
