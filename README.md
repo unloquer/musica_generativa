@@ -4,6 +4,16 @@
 Imaginar los componentes musicales como organismos nos permite crear unidades generadoras con una serie de condiciones que podrían crear música.
 
 Para este taller usaremos el lenguaje de programación [ChucK](http://chuck.cs.princeton.edu/) que nos permitirá hacer prototipos de soluciones a los retos propuestos.
+
++ El compositor que desea liberarse de la materialización estricta en inmovil de una creación.
++ Que larga dictadura la que a padecido la música bajo la pluma del compositor, 
++ Indicios de autonomía
++ Algunos espíritus que solo la aleatoriedad total solo es soportable por unos minutos
++ La idea de una música producida por un grupo de algoritmos
++ Cuando la formula empieza a ser más valorada que el resultado
++ La curiosidad de modelar matemáticamente el tipo de música electrónica que pone un DJ en la pista de baile
+
+
 ## Prácticas
 Vamos a considerar algunos elementos de composición
 ### Groove / Agitación / Ritmo
@@ -68,6 +78,33 @@ Escriba una función que permita manipular el transiente de un sonido según una
 + A visual explanation by Victor Powell http://setosa.io/blog/2014/07/26/markov-chains/index.html
 
 +  En este link explican como usar cadenas de markov para hacer strings( o textos) más confusos https://bwall.github.io/markov-chains-keyed-obfuscation/
+
+#### Explicación de williamsharkey 
+
+After a kick, there is a 100% chance of a snare. 
+After a snare there is a 50% chance of a snare, and a 50% chance of a kick. 
+
+Here is what the Probability matrix would look like: 
+
+```
+Code:
+                c u r r e n t 
+
+                kick   snare 
+            +-----------------+ 
+n   kick    |   0    |  0.5   | 
+e           +--------+--------+ 
+x   snare   |   1    |  0.5   | 
+t           +--------+--------+
+```
+
+Is this not an elegant way to describe what is happening? It can be expanded for more states, perhaps a state for a woodblock, or a rest. 
+
+Math stuff: 
+1. Each column must add up to 1. That means there is a 100% chance that there is a "next time". 
+
+2. "Whats the probability that 100 beats from now, it will play a snare?!" Well, just take the matrix to the 100th power. Then add up the column called snare. That's the answer! This assumes a 50/50 chance of starting on snare/kick.
+Last edited by williamsharkey on Tue Dec 18, 2007 9:43 am; edited 1 time in total
 
 ## ¿Cómo replicar este taller?
 
