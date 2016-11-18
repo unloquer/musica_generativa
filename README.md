@@ -5,10 +5,10 @@ Imaginar los componentes musicales como organismos nos permite crear unidades ge
 
 Para este taller usaremos el lenguaje de programación [ChucK](http://chuck.cs.princeton.edu/) que nos permitirá hacer prototipos de soluciones a los retos propuestos.
 
-+ El compositor que desea liberarse de la materialización estricta en inmovil de una creación.
++ El compositor que desea liberarse de la materialización estricta e inmovil de una creación.
 + Que larga dictadura la que a padecido la música bajo la pluma del compositor, 
 + Indicios de autonomía
-+ Algunos espíritus que solo la aleatoriedad total solo es soportable por unos minutos
++ Algunos espíritus que solo soportan la aleatoriedad unos minutos
 + La idea de una música producida por un grupo de algoritmos
 + Cuando la formula empieza a ser más valorada que el resultado
 + La curiosidad de modelar matemáticamente el tipo de música electrónica que pone un DJ en la pista de baile
