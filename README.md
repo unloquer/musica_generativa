@@ -33,8 +33,10 @@ Escriba una curva de probabilidad que describa los momentos en que un instrument
 Escriba una función que permita generar notas aleatorias
 + Solución que genera notas aleatorias sobre una base rítmica: https://github.com/son0p/algo0ritmos/blob/master/practicas/alturas_002.ck
 
+
 #### => Use cadenas de Markov para seleccionar las alturas
 + Solución basada en la explicación de williamsharkey: https://github.com/son0p/algo0ritmos/blob/master/generatives/gen_markov_001.ck
+
   + Despues de la nota raíz hay 100% de probabilidad que suene una octava arriba
   + Después de la octava arriba hay 50% de probabilidad que suene la nota raíz y 50% que suene la octava.
   
