@@ -13,6 +13,14 @@ Para este taller usaremos el lenguaje de programación [ChucK](http://chuck.cs.p
 + La vieja idea de una música producida por un grupo de algoritmos matemáticos
 + Cuando la formula empieza a ser más valorada que el resultado
 + La curiosidad de modelar matemáticamente el tipo de música electrónica que pone un DJ en la pista de baile
++ Inspirarse en la forma como evoluciona la naturaleza, mutaciones, selección, etc.
++ Entrenar un sistema
+
+### Objetivos del taller
++ Interogarnos por la forma de modelar matematicamente una música electrónica bailable usando herramientas generativas.
++ Componer y presentar una pieza propia
++ Participar en el análisis de las posibilidades de la música generativa
+
 
 
 ## Prácticas
@@ -77,7 +85,9 @@ Escriba una función que permita manipular el transiente de un sonido según una
 ### ChucK 
 + Descargar:  http://chuck.cs.princeton.edu/release/ 
  
-
+### Lecturas 
++ https://en.wikipedia.org/wiki/Generative_music
++ https://en.wikipedia.org/wiki/Algorithmic_composition
 
 ### Algoritmos 
 +  Concurso para determinar si un algoritmo que selecciona música como un DJ pasa el touring test ( via @danielgomezmarin ) http://bregman.dartmouth.edu/turingtests/algorhythms 
